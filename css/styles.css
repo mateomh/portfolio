@@ -1,0 +1,124 @@
+/*====================HTML TAGS===========================*/
+section{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h5{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding-bottom: 3%;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*==================GENERAL CLASSES=======================*/
+.color-section{
+    background-color: #a8df65;
+    background-color: #79d70f !important;
+    background-color: #11C212 !important;
+    color: whitesmoke;
+}
+.white-section{
+    background-color: whitesmoke;
+}
+/*==================NAV BAR===============================*/
+.navbar-brand{
+    font-family: 'Merienda', cursive;
+    position: absolute;
+    right:2%;
+}
+/*==================INTRO SECTION=========================*/
+#intro-title{
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+#intro-image{
+    object-fit: fill;
+    width:100%;
+    height: 100%;
+    height: 30rem;
+}
+#intro-title h1{
+    font-size: 4vw;
+    color:#11C212;
+    color: whitesmoke;
+    text-align: left;
+    /*position: absolute;
+    top: 40%;
+    left: 37%;*/
+}
+#intro-title p{
+    color:#11c212;
+    font-size: 2vw;
+    /*position: absolute;
+    top: 52%;
+    left:40%;*/
+}
+.test{
+    position: absolute;
+    width:30%;
+    height:30%;
+    top:37%;
+    left:37%;
+    /*top:15%;
+    left: 10%;*/
+}
+/*
+@media (max-width:768px){
+    #intro-title h1{
+        position: absolute;
+        font-size: 30px;
+        color:#79d70f;
+        top: 40%;
+        left: 37%;
+    
+    }
+    #intro-title p{
+        position: absolute;
+        width:20%;
+        color:#79d70f;
+        top: 52%;
+        left:40%;
+    }    
+}
+*/
+/*==================SKILLS SECTION========================*/
+.img-skill{
+    width:40%;
+    height: 40%;
+    margin: 0 auto 0 auto;
+}
+.card{
+    padding-top: 5%;
+    margin:0 auto 0 auto;
+}
+/*==================PROJECTS SECTION=====================*/
+.carousel-item{
+    text-align: center;
+}
+.img-project{
+    width: 10%;
+    height: 10%;
+    padding-bottom: 3%;
+}
+/*==================CONTACT SECTION=======================*/
+#contact-me{
+    width:100%;
+}
+.container{
+    text-align: center;
+    padding-top: 3%;
+}
+.img-contact{
+    width: 35%;
+    height: 60%;
+}
+/*==================FOOTER SECTION========================*/
+#footer{
+    padding:3%;
+    line-height: 2;
+    color: whitesmoke;
+}
+#footer a{
+    text-decoration: none;
+    color: #064206;
+}
