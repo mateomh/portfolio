@@ -62,6 +62,9 @@ body {
   color: whitesmoke;
 }
 
+.debugging {
+  border: 1px solid goldenrod;
+}
 /* ===================== NAVBAR SECTION ========================== */
 
 /* ===================== HEADER SECTION ========================== */
@@ -72,7 +75,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: whitesmoke;
-  border-radius: 0 0 0 30%;
+  border-radius: 0 0 0 20vh;
   margin-bottom: 10vh;
 }
 
@@ -176,13 +179,52 @@ body {
 /* ===================== ABOUT ME SECTION ======================== */
 #about-me{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 15vh 5vh 5vh 5vh;
+  height: fit-content;
   background-color: whitesmoke;
-  border-radius: 0 30% 0 0;
+  border-radius: 0 20vh 0 0;
 }
 
+.my-desc {
+  margin: 0 0 5vh 0;
+}
+
+.about-text {
+  width: 90%;
+}
+
+.my-info {
+  width: 100%;
+}
+
+.language-badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.language-icon {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 100%;
+  margin: 0 2vh 0 0;
+}
+
+.language-text {
+  margin-top: 2vh;
+}
+/* ================== ABOUT SECTION MEDIA QUERY ================== */
+@media(min-width: 1000px){
+  #about-me {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
 /* ===================== FOOTER SECTION ========================== */
 #footer {
   display: flex;
@@ -190,5 +232,5 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border-radius: 30% 0 0 0;
+  border-radius: 20vh 0 0 0;
 }
