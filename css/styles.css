@@ -116,16 +116,21 @@ body {
   width: 75%;
   border-radius: 2vh;
   background-color: whitesmoke;
-  border: 1px solid gray;
+  border: 1px solid var(--color1);
   padding: 5vh;
   margin: 5vh 0;
 }
 
+.project-photo-container {
+  width: 100%;
+  padding: 5vh 0;
+  margin: 0 0 3vh 0;
+  border-radius: 2vh;
+}
+
 .project-photo {
   width: 100%;
-  border: 1px solid goldenrod;
-  border-radius: 2vh;
-  margin-bottom: 3vh;
+  
 }
 
 .project-info {
@@ -151,19 +156,17 @@ body {
 @media(min-width: 1000px){
   .project-display {
     flex-direction: row;
+    align-items: center;
   }
 
-  .project-photo {
-    width: 40%;
-    height: 30vh;
+  .project-photo-container{
+    width: 50%;
     margin: 0 2.5vh;
   }
 
   .project-info {
     width: 50%;
-    height: 30vh;
     margin: 0 2.5vh;
-    border: 1px solid goldenrod;
   }
 
   .invert-content {
@@ -172,10 +175,20 @@ body {
 }
 /* ===================== ABOUT ME SECTION ======================== */
 #about-me{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  border-radius: 0 30% 0 0;
 }
 
 /* ===================== FOOTER SECTION ========================== */
 #footer {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 30% 0 0 0;
 }
