@@ -118,6 +118,7 @@ body {
   background-color: whitesmoke;
   border: 1px solid gray;
   padding: 5vh;
+  margin: 5vh 0;
 }
 
 .project-photo {
@@ -131,6 +132,7 @@ body {
   display: flex;
   flex-direction: column;
   height: fit-content;
+  justify-content: space-evenly;
 }
 
 .project-title {
@@ -145,6 +147,29 @@ body {
   margin-top: 3vh;
 }
 
+/* ============== PROJECTS SECTION MEDIA QUERIES ================= */
+@media(min-width: 1000px){
+  .project-display {
+    flex-direction: row;
+  }
+
+  .project-photo {
+    width: 40%;
+    height: 30vh;
+    margin: 0 2.5vh;
+  }
+
+  .project-info {
+    width: 50%;
+    height: 30vh;
+    margin: 0 2.5vh;
+    border: 1px solid goldenrod;
+  }
+
+  .invert-content {
+    flex-direction: row-reverse;
+  }
+}
 /* ===================== ABOUT ME SECTION ======================== */
 #about-me{
 
