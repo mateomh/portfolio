@@ -70,9 +70,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 100vh;
   background-color: whitesmoke;
   border-radius: 0 0 0 30%;
+  margin-bottom: 10vh;
 }
 
 .main-text {
@@ -100,6 +101,33 @@ body {
 
 /* ===================== PROJECTS SECTION ======================== */
 #projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.project-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  width: 75%;
+  border-radius: 2vh;
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  padding: 5vh;
+}
+
+.project-photo {
+  width: 100%;
+  border: 1px solid goldenrod;
+  border-radius: 2vh;
+  margin-bottom: 3vh;
+}
+
+.project-info {
 
 }
 
