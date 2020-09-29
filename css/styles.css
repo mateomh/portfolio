@@ -128,7 +128,21 @@ body {
 }
 
 .project-info {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
 
+.project-title {
+
+}
+
+.project-desc {
+  margin-top: 3vh;
+}
+
+.project-link {
+  margin-top: 3vh;
 }
 
 /* ===================== ABOUT ME SECTION ======================== */
