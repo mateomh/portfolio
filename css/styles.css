@@ -13,3 +13,75 @@ body {
   color: whitesmoke;
   /* font-family: 'Rubik', sans-serif; */
 }
+
+:root {
+  --color1: #2ec1ac;
+  --color2: #3e978b;
+  --color3: #d2e603;
+  --color4: #eff48e;
+
+  /* Other Palettes */
+  /* #eeeeee
+  #393e46
+  #76ead7
+  #c4fb6d */
+}
+
+/* ===================== GENERAL STYLES ========================== */
+.background-top {
+  background-color: var(--color1);
+}
+
+.background-med {
+  background-color: var(--color2);
+}
+
+.background-bottom {
+  background-color: var(--color3);
+}
+
+.background-odd {
+  background-color: var(--color4);
+}
+
+.text-color-top {
+  color: var(--color1);
+}
+
+.text-color-med {
+  color: var(--color2);
+}
+
+.text-color-bottom {
+  color: var(--color3);
+}
+
+.text-color-odd {
+  color: var(--color4);
+}
+
+.text-color-white {
+  color: whitesmoke;
+}
+
+/* ===================== NAVBAR SECTION ========================== */
+
+/* ===================== HEADER SECTION ========================== */
+#introduction {
+
+}
+
+/* ===================== PROJECTS SECTION ======================== */
+#projects {
+
+}
+
+/* ===================== ABOUT ME SECTION ======================== */
+#about-me{
+
+}
+
+/* ===================== FOOTER SECTION ========================== */
+#footer {
+
+}
