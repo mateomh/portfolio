@@ -198,19 +198,19 @@
 
 .money-monster {
   background-image:
-    radial-gradient(farthest-corner at 80% 30%, rgb(50, 50, 50, 0.5), rgb(0,0,0,0.4), black),
+    radial-gradient(farthest-corner at 80% 20%, rgb(0, 0, 0, 0.5), rgb(0,0,0,0.7), black),
     url("../images/projects_imgs/money-monster/full-money-monster.png");
 }
 
 .fresh-finder {
   background-image:
-    radial-gradient(farthest-corner at 80% 30%, rgb(50, 50, 50, 0.5), rgb(0,0,0,0.4), black),
+    radial-gradient(farthest-corner at 80% 20%, rgb(0, 0, 0, 0.5), rgb(0,0,0,0.7), black),
     url("../images/projects_imgs/fresh-finder/app_screenshot.png");
 }
 
 .css-linter {
   background-image:
-    radial-gradient(farthest-corner at 80% 30%, rgb(50, 50, 50, 0.5), rgb(0,0,0,0.4), black),
+    radial-gradient(farthest-corner at 80% 20%, rgb(0, 0, 0, 0.5), rgb(0,0,0,0.7), black),
     url("../images/projects_imgs/css-linter/pankaj-patel-_SgRNwAVNKw-unsplash.jpg");
 }
 
