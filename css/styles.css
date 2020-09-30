@@ -89,15 +89,15 @@
   border-radius: 0 0 0 20vh;
   margin-bottom: 10vh;
   background-image: url();
-  padding: 10vh 5vh 5vh 10vh;
+  padding: 10vh 10vh 10vh 10vh;
 }
 
 .main-text {
-  width: 60%;
+  width: 100%;
 }
 
 .secondary-text {
-  width: 60%;
+  width: 100%;
   font-size: 2.5vh;
   margin-top: 3vh;
   color: gray;
@@ -123,6 +123,14 @@
 @media(min-width: 1000px) {
   #introduction {
     height: 70vh;
+  }
+
+  .main-text {
+    width: 60%;
+  }
+
+  .secondary-text {
+    width: 60%;
   }
 }
 
