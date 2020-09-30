@@ -41,19 +41,19 @@
 }
 
 .text-color-top {
-  color: var(--color1);
+  color: var(--color1) !important;
 }
 
 .text-color-med {
-  color: var(--color2);
+  color: var(--color2) !important;
 }
 
 .text-color-bottom {
-  color: var(--color3);
+  color: var(--color3) !important;
 }
 
 .text-color-odd {
-  color: var(--color4);
+  color: var(--color4) !important;
 }
 
 .text-color-white {
@@ -63,6 +63,16 @@
 .debugging {
   border: 1px solid goldenrod;
 }
+
+.title-text {
+  font-size: 5vh;
+  font-weight: 700;
+}
+
+.regular-text {
+  font-size: 3vh !important;
+}
+
 /* ===================== NAVBAR SECTION ========================== */
 
 /* ===================== HEADER SECTION ========================== */
@@ -107,6 +117,9 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 5vh;
+  padding: 10vh 0;
+  background-color: whitesmoke;
+  border-radius: 20vh;
 }
 
 .project-display {
@@ -129,7 +142,6 @@
 
 .project-photo {
   width: 100%;
-  
 }
 
 .project-info {
@@ -140,7 +152,8 @@
 }
 
 .project-title {
-
+  width: 75%;
+  margin-bottom: 5vh;
 }
 
 .project-desc {
@@ -149,6 +162,36 @@
 
 .project-link {
   margin-top: 3vh;
+}
+
+.carousel-image {
+  height: 85vh;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.money-monster {
+  background-image:
+    radial-gradient(farthest-corner at 80% 30%, rgb(50, 50, 50, 0.5), rgb(0,0,0,0.4), black),
+    url("../images/projects_imgs/money-monster/full-money-monster.png");
+}
+
+.fresh-finder {
+  background-image:
+    radial-gradient(farthest-corner at 80% 30%, rgb(50, 50, 50, 0.5), rgb(0,0,0,0.4), black),
+    url("../images/projects_imgs/fresh-finder/app_screenshot.png");
+}
+
+.css-linter {
+  background-image:
+    radial-gradient(farthest-corner at 80% 30%, rgb(50, 50, 50, 0.5), rgb(0,0,0,0.4), black),
+    url("../images/projects_imgs/css-linter/pankaj-patel-_SgRNwAVNKw-unsplash.jpg");
+}
+
+.slide-title {
+
 }
 
 /* ============== PROJECTS SECTION MEDIA QUERIES ================= */
@@ -214,6 +257,7 @@
 .language-text {
   margin-top: 2vh;
 }
+
 /* ================== ABOUT SECTION MEDIA QUERY ================== */
 @media(min-width: 1000px){
   #about-me {

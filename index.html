@@ -16,9 +16,9 @@
 
   </nav>
   <header id="introduction">
-    <h1 class="main-text">Hi I'm Mateo</h1>
-    <h1 class="main-text">Glad to see you here</h1>
-    <p class="secondary-text">
+    <h1 class="main-text title-text">Hi I'm Mateo</h1>
+    <h1 class="main-text title-text">Glad to see you here</h1>
+    <p class="secondary-text regular-text">
       I'm a software developer with solid knowledge in HTML, CSS, Javascript, Node with express, Ruby on Rails, React and Redux. 
       I can help you with any software solution you may need. 
       You can browse freely through my projects to pick any that you like. 
@@ -67,22 +67,58 @@
       </div>
     </section> -->
     <section id="projects">
-
+      <h1 class="main-text title-text project-title">Come and see my Projects</h1>
+      <div id="carouselExampleCaptions" class="carousel slide w-75 h-100" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active project-carousel">
+            <div class="carousel-image money-monster"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title-text text-color-bottom">Money Monster</h1>
+              <p class="regular-text">Money Monster is a mobile expense tracker that also lets you share expenses with a group of friends or family members</p>
+              <a class="btn btn-outline-light btn-lg font-weight-bolder" href="google.com">Visit the project</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image fresh-finder"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title-text text-color-bottom">Fresh Finder</h1>
+              <p class="regular-text">This project was built as a static template for any business that wanted to showcase their products. The concept for the implementation was a store finder for businesses that offer fresh products</p>
+              <a class="btn btn-outline-light btn-lg font-weight-bolder" href="google.com">Visit the project</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image css-linter"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="title-text text-color-bottom">CSS Linter</h1>
+              <p class="regular-text">Made in Ruby it is a linter that has over 8 rules to check css files inside a project folder</p>
+              <a class="btn btn-outline-light btn-lg font-weight-bolder" href="google.com">Visit the project</a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev text-color-top" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
     <section id="about-me">
       <div class="my-desc">
-        <h1 class="main-text">More About Me</h1>
+        <h1 class="main-text title-text">More About Me</h1>
         <div class="social-buttons">
           <a class="social-link" href="http://linkedin.com/in/mateo-mojica-hernandez"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
           <a class="social-link" href="https://github.com/mateomh"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
           <a class="social-link" href="https://medium.com/@mmojicah.84"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
           <a class="social-link" href="https://twitter.com/mateo_m_h"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
         </div>
-        <p class="secondary-text about-text">
+        <p class="secondary-text about-text regular-text">
           I am an Electronics engineer who really enjoys learning new things and technologies. 
           I am also a really fast learner with good skills in troubleshooting, problem-solving, communications, leadership, and remote work.
         </p>
-        <p class="secondary-text about-text">  
+        <p class="secondary-text about-text regular-text">  
           I have on my belt more than 8 years of international experience in the oil and gas industry onshore and offshore, 
           leading several projects throughout my career. 
           I am skillful with personnel management and development, on a small scale (up to 10 people) and large scale (up to 120 people in 2 locations).
@@ -93,7 +129,7 @@
           <div class="card">
             <div class="card-header " id="headingOne">
               <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="btn btn-link btn-block text-left text-color-top regular-text font-weight-bolder" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   Languages
                 </button>
               </h2>
@@ -123,7 +159,7 @@
           <div class="card">
             <div class="card-header" id="headingTwo">
               <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="btn btn-link btn-block text-left collapsed text-color-top regular-text font-weight-bolder" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   Frameworks
                 </button>
               </h2>
@@ -148,7 +184,7 @@
           <div class="card">
             <div class="card-header" id="headingThree">
               <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="btn btn-link btn-block text-left collapsed text-color-top regular-text font-weight-bolder" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   Skills
                 </button>
               </h2>
@@ -175,9 +211,9 @@
     </section>
   </main>
   <footer id="footer" class="background-top">
-    <h1 class="main-text text-color-odd">If you like what you saw please feel free to contact me</h1>
-    <p class="secondary-text footer-text">You can send me a direct message on my Linkedin or Twitter</p>
-    <p class="secondary-text footer-text">Or if you prefer, send me an email to: mmojicah.84@gmail.com</p>
+    <h1 class="main-text text-color-odd title-text">If you like what you saw please feel free to contact me</h1>
+    <p class="secondary-text footer-text regular-text">You can send me a direct message on my Linkedin or Twitter</p>
+    <p class="secondary-text footer-text regular-text">Or if you prefer, send me an email to: mmojicah.84@gmail.com</p>
   </footer>
 </body>
 </html>
