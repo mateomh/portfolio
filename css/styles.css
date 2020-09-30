@@ -111,10 +111,11 @@
   color: gray;
   text-decoration: none;
   margin: 0 1vh 0 1vh;
+  color: var(--color2);
 }
 
 .social-link:hover {
-  color: var(--color1);
+  color: var(--color3);
 }
 
 @media(min-width: 1000px) {
