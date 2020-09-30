@@ -67,10 +67,12 @@
 .title-text {
   font-size: 5vh;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .regular-text {
   font-size: 3vh !important;
+  font-family: 'Oxygen', sans-serif;
 }
 
 /* ===================== NAVBAR SECTION ========================== */
@@ -111,6 +113,16 @@
   margin: 0 1vh 0 1vh;
 }
 
+.social-link:hover {
+  color: var(--color1);
+}
+
+@media(min-width: 1000px) {
+  #introduction {
+    height: 70vh;
+  }
+}
+
 /* ===================== PROJECTS SECTION ======================== */
 #projects {
   display: flex;
@@ -119,7 +131,7 @@
   align-items: center;
   margin-bottom: 5vh;
   padding: 10vh 0;
-  background-color: var(--color4);
+  background-color: #f7f2e7;
   border-radius: 20vh;
 }
 
