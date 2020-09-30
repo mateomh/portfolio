@@ -83,11 +83,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: fit-content;
   background-color: whitesmoke;
   border-radius: 0 0 0 20vh;
   margin-bottom: 10vh;
   background-image: url();
+  padding: 10vh 5vh 5vh 10vh;
 }
 
 .main-text {
