@@ -3,9 +3,221 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="icon" href="https://www.flaticon.com/svg/static/icons/svg/922/922099.svg">
+  <title>Mm portfolio</title>
 </head>
 <body>
-  
+  <nav>
+
+  </nav>
+  <header id="introduction">
+    <h1 class="main-text title-text">Hi, I'm Mateo</h1>
+    <h1 class="main-text title-text">Glad to see you here</h1>
+    <p class="secondary-text regular-text">
+      I'm a software developer with solid knowledge in HTML, CSS, Javascript, Node with Express, Ruby on Rails, React, and Redux. 
+      I can help you with any software solution you may need. 
+      You can browse freely through my projects to pick any that you like. 
+      Feel free to contact me to help you with your project.
+    </p>
+    <div class="social-buttons">
+      <a class="social-link" href="http://linkedin.com/in/mateo-mojica-hernandez"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      <a class="social-link" href="https://github.com/mateomh"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+      <a class="social-link" href="https://medium.com/@mmojicah.84"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
+      <a class="social-link" href="https://twitter.com/mateo_m_h"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    </div>
+  </header>
+  <main>
+    <!-- <section id="projects">
+      <div class="project-display background-top">
+        <div class="project-photo-container background-med">
+          <img class="project-photo" src="./images/projects_imgs/money-monster/full-money-monster.png" alt="">
+        </div>
+        <div class="project-info">
+          <h1 class="project-title">Money Monster</h1>
+          <p class="project-desc">Money Monster is a mobile expense tracker that also lets you share expenses with a group of friends or family members</p>
+          <a class="project-link" href="">Link to the project</a>
+        </div>
+      </div>
+
+      <div class="project-display invert-content background-med">
+        <div class="project-photo-container background-odd">
+          <img class="project-photo" src="./images/projects_imgs/fresh-finder/app_screenshot.png" alt="">
+        </div>
+        <div class="project-info">
+          <h1 class="project-title text-color-white">Fresh Finder</h1>
+          <p class="project-desc text-color-white">This project was built as a static template for any business that wanted to showcase their bussiness. The concept for the implementation was a store finder for businesses that offer fresh products</p>
+          <a class="project-link" href="">Link to the project</a>
+        </div>
+      </div>
+
+      <div class="project-display background-odd">
+        <div class="project-photo-container background-top">
+          <img class="project-photo" src="./images/projects_imgs/css-linter/pankaj-patel-_SgRNwAVNKw-unsplash.jpg" alt="">
+        </div>
+        <div class="project-info">
+          <h1 class="project-title">CSS Linter</h1>
+          <p class="project-desc">Made in Ruby it is a linter that has over 8 rules to check css files inside a project folder</p>
+          <a class="project-link" href="">Link to the project</a>
+        </div>
+      </div>
+    </section> -->
+    <section id="projects">
+      <h1 class="main-text title-text project-title">Come and see my Projects</h1>
+      <div id="carouselExampleCaptions" class="carousel slide w-75 h-100" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active project-carousel">
+            <div class="carousel-image money-monster"></div>
+            <div class="carousel-caption">
+              <h1 class="title-text text-color-bottom">Money Monster</h1>
+              <p class="regular-text d-none d-md-block">Money Monster is a mobile expense tracker that also lets you share expenses with a group of friends or family members</p>
+              <a class="btn btn-outline-light btn-lg font-weight-bolder" href="google.com">Visit the project</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image fresh-finder"></div>
+            <div class="carousel-caption ">
+              <h1 class="title-text text-color-bottom">Fresh Finder</h1>
+              <p class="regular-text d-none d-md-block">This project was built as a static template for any business that wanted to showcase their products. The concept for the implementation was a store finder for businesses that offer fresh products</p>
+              <a class="btn btn-outline-light btn-lg font-weight-bolder" href="google.com">Visit the project</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image css-linter"></div>
+            <div class="carousel-caption ">
+              <h1 class="title-text text-color-bottom">CSS Linter</h1>
+              <p class="regular-text d-none d-md-block">Made in Ruby it is a linter that has over 8 rules to check css files inside a project folder</p>
+              <a class="btn btn-outline-light btn-lg font-weight-bolder" href="google.com">Visit the project</a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev text-color-top" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <section id="about-me">
+      <div class="my-desc">
+        <h1 class="main-text title-text">More About Me</h1>
+        <div class="social-buttons">
+          <a class="social-link" href="http://linkedin.com/in/mateo-mojica-hernandez"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+          <a class="social-link" href="https://github.com/mateomh"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+          <a class="social-link" href="https://medium.com/@mmojicah.84"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
+          <a class="social-link" href="https://twitter.com/mateo_m_h"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <p class="secondary-text about-text regular-text">
+          I am an Electronics engineer who enjoys learning new things and technologies. 
+          I am also a fast learner with good skills in troubleshooting, problem-solving, communications, leadership, and remote work.
+        </p>
+        <p class="secondary-text about-text regular-text">  
+          I have on my belt more than eight years of international experience in the oil and gas industry onshore and offshore, 
+          leading several projects throughout my career. 
+          I am skillful with personnel management and development, on a small scale (up to 10 people) and large scale (up to 120 people in 2 locations).
+        </p>
+      </div>
+      <div class="my-info">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header " id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left text-color-top regular-text font-weight-bolder" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Languages
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="language-badge">
+                  <img class="language-icon" src="https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png" alt="">
+                  <p class="language-text regular-text">JavaScript</p>
+                </div>
+                <div class="language-badge">
+                  <img class="language-icon" src="https://www.flaticon.com/svg/static/icons/svg/919/919842.svg" alt="">
+                  <p class="language-text regular-text">Ruby</p>
+                </div>
+                <div class="language-badge">
+                  <img class="language-icon" src="https://www.flaticon.com/svg/static/icons/svg/174/174854.svg" alt="">
+                  <p class="language-text regular-text">HTML</p>
+                </div>
+                <div class="language-badge">
+                  <img class="language-icon" src="https://www.flaticon.com/svg/static/icons/svg/732/732190.svg" alt="">
+                  <p class="language-text regular-text">CSS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed text-color-top regular-text font-weight-bolder" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Frameworks
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="language-badge">
+                  <img class="language-icon" src="https://seeklogo.com/images/R/ruby-on-rails-logo-95951CC5FB-seeklogo.com.png" alt="">
+                  <p class="language-text regular-text">Rails</p>
+                </div>
+                <div class="language-badge">
+                  <img class="language-icon" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="">
+                  <p class="language-text regular-text">Node JS</p>
+                </div>
+                <div class="language-badge">
+                  <img class="language-icon" src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" alt="">
+                  <p class="language-text regular-text">React</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed text-color-top regular-text font-weight-bolder" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Skills
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="language-badge">
+                  <img class="language-icon" src="./images/stock_imgs/toolbox.png" alt="">
+                  <p class="language-text regular-text">Troubleshooting</p>
+                </div>
+                <div class="language-badge">
+                  <img class="language-icon" src="./images/stock_imgs/leadership.png" alt="">
+                  <p class="language-text regular-text">Leadership</p>
+                </div>
+                <div class="language-badge">
+                  <img class="language-icon" src="./images/stock_imgs/book.png" alt="">
+                  <p class="language-text regular-text">Self Learning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer" class="background-top">
+    <h1 class="main-text text-color-odd title-text footer-text">If you liked what you saw please feel free to contact me</h1>
+    <p class="secondary-text footer-text regular-text">You can send me a direct message on my <a class="footer-link" href="http://linkedin.com/in/mateo-mojica-hernandez">Linkedin</a> or <a class="footer-link" href="https://twitter.com/mateo_m_h">Twitter</a></p>
+    <p class="secondary-text footer-text regular-text">Or if you prefer, send me an email to: <a class="footer-link" href=mailto:mmojicah.84@gmail.com>mmojicah.84@gmail.com</a></p>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,303 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #2ec1ac;
+  --color2: #3e978b;
+  --color3: #d2e603;
+  --color4: #eff48e;
+
+  /* Other Palettes */
+  /* #eeeeee
+  #393e46
+  #76ead7
+  #c4fb6d */
+}
+
+/* ===================== GENERAL STYLES ========================== */
+.background-top {
+  background-color: var(--color1);
+}
+
+.background-med {
+  background-color: var(--color2);
+}
+
+.background-bottom {
+  background-color: var(--color3);
+}
+
+.background-odd {
+  background-color: var(--color4);
+}
+
+.background-gray {
+  background-color: lightgray;
+}
+
+.text-color-top {
+  color: var(--color1) !important;
+}
+
+.text-color-med {
+  color: var(--color2) !important;
+}
+
+.text-color-bottom {
+  color: var(--color3) !important;
+}
+
+.text-color-odd {
+  color: var(--color4) !important;
+}
+
+.text-color-white {
+  color: whitesmoke;
+}
+
+.debugging {
+  border: 1px solid goldenrod;
+}
+
+.title-text {
+  font-size: 5vh;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.regular-text {
+  font-size: 3vh !important;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* ===================== NAVBAR SECTION ========================== */
+
+/* ===================== HEADER SECTION ========================== */
+#introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  border-radius: 0 0 0 20vh;
+  margin-bottom: 10vh;
+  background-image: url();
+}
+
+.main-text {
+  width: 60%;
+}
+
+.secondary-text {
+  width: 60%;
+  font-size: 2.5vh;
+  margin-top: 3vh;
+  color: gray;
+}
+
+.social-buttons {
+  margin-top: 5vh;
+  text-align: left;
+  width: 60%;
+}
+
+.social-link {
+  color: gray;
+  text-decoration: none;
+  margin: 0 1vh 0 1vh;
+  color: var(--color2);
+}
+
+.social-link:hover {
+  color: var(--color3);
+}
+
+@media(min-width: 1000px) {
+  #introduction {
+    height: 70vh;
+  }
+}
+
+/* ===================== PROJECTS SECTION ======================== */
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+  padding: 10vh 0;
+  background-color: #f7f2e7;
+  border-radius: 20vh;
+}
+
+.project-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  width: 75%;
+  border-radius: 2vh;
+  padding: 5vh;
+  margin: 5vh 0;
+}
+
+.project-photo-container {
+  width: 100%;
+  padding: 5vh 0;
+  margin: 0 0 3vh 0;
+  border-radius: 2vh;
+}
+
+.project-photo {
+  width: 100%;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: space-evenly;
+}
+
+.project-title {
+  width: 75%;
+  margin-bottom: 5vh;
+}
+
+.project-desc {
+  margin-top: 3vh;
+}
+
+.project-link {
+  margin-top: 3vh;
+}
+
+.carousel-image {
+  height: 85vh;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.money-monster {
+  background-image:
+    radial-gradient(farthest-corner at 80% 30%, rgb(50, 50, 50, 0.5), rgb(0,0,0,0.4), black),
+    url("../images/projects_imgs/money-monster/full-money-monster.png");
+}
+
+.fresh-finder {
+  background-image:
+    radial-gradient(farthest-corner at 80% 30%, rgb(50, 50, 50, 0.5), rgb(0,0,0,0.4), black),
+    url("../images/projects_imgs/fresh-finder/app_screenshot.png");
+}
+
+.css-linter {
+  background-image:
+    radial-gradient(farthest-corner at 80% 30%, rgb(50, 50, 50, 0.5), rgb(0,0,0,0.4), black),
+    url("../images/projects_imgs/css-linter/pankaj-patel-_SgRNwAVNKw-unsplash.jpg");
+}
+
+/* ============== PROJECTS SECTION MEDIA QUERIES ================= */
+@media(min-width: 1000px){
+  .project-display {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .project-photo-container{
+    width: 50%;
+    margin: 0 2.5vh;
+  }
+
+  .project-info {
+    width: 50%;
+    margin: 0 2.5vh;
+  }
+
+  .invert-content {
+    flex-direction: row-reverse;
+  }
+}
+/* ===================== ABOUT ME SECTION ======================== */
+#about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15vh 5vh 5vh 10vh;
+  height: fit-content;
+  background-color: whitesmoke;
+  border-radius: 0 20vh 0 0;
+}
+
+.my-desc {
+  margin: 0 0 5vh 0;
+}
+
+.about-text {
+  width: 90%;
+}
+
+.my-info {
+  width: 100%;
+}
+
+.language-badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.language-icon {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 100%;
+  margin: 0 2vh 0 0;
+}
+
+.language-text {
+  margin-top: 2vh;
+}
+
+/* ================== ABOUT SECTION MEDIA QUERY ================== */
+@media(min-width: 1000px){
+  #about-me {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+/* ===================== FOOTER SECTION ========================== */
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: fit-content;
+  border-radius: 20vh 0 0 0;
+  padding: 15vh 5vh 10vh 10vh;
+}
+
+.footer-text {
+  color: whitesmoke;
+  width: 100%;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--color3);
+  font-weight: 900;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: var(--color4);
+}
