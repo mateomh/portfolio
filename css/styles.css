@@ -6,12 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: lightgray;
-  margin: 0;
-  /* font-family: 'Rubik', sans-serif; */
-}
-
 :root {
   --color1: #2ec1ac;
   --color2: #3e978b;
@@ -40,6 +34,10 @@ body {
 
 .background-odd {
   background-color: var(--color4);
+}
+
+.background-gray {
+  background-color: lightgray;
 }
 
 .text-color-top {
@@ -118,8 +116,6 @@ body {
   height: fit-content;
   width: 75%;
   border-radius: 2vh;
-  background-color: whitesmoke;
-  border: 1px solid var(--color1);
   padding: 5vh;
   margin: 5vh 0;
 }
@@ -230,7 +226,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: left;
+  height: fit-content;
   border-radius: 20vh 0 0 0;
+  padding: 15vh 5vh 10vh 5vh;
+}
+
+.footer-text {
+  color: whitesmoke;
 }
