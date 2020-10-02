@@ -11,6 +11,8 @@
   --color2: #3e978b;
   --color3: #d2e603;
   --color4: #eff48e;
+  --color5: #91d18b;
+  --color6: #c4fb6d;
 
   /* Other Palettes */
   /* #eeeeee
@@ -21,7 +23,7 @@
 
 /* ===================== GENERAL STYLES ========================== */
 .background-top {
-  background-color: var(--color1);
+  background-color: var(--color5);
 }
 
 .background-med {
@@ -41,7 +43,7 @@
 }
 
 .text-color-top {
-  color: var(--color1) !important;
+  color: var(--color5) !important;
 }
 
 .text-color-med {
@@ -58,6 +60,14 @@
 
 .text-color-white {
   color: whitesmoke;
+}
+
+.text-color-5 {
+  color: var(--color5) !important;
+}
+
+.text-color-6 {
+  color: var(--color6) !important;
 }
 
 .debugging {
@@ -116,7 +126,7 @@
   color: gray;
   text-decoration: none;
   margin: 0 1vh 0 1vh;
-  color: var(--color2);
+  color: var(--color5);
 }
 
 .social-link:hover {
@@ -306,7 +316,7 @@
 
 .footer-link {
   text-decoration: none;
-  color: var(--color3);
+  color: var(--color6);
   font-weight: 900;
 }
 
