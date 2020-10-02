@@ -90,6 +90,9 @@
   margin-bottom: 10vh;
   background-image: url();
   padding: 10vh 10vh 10vh 10vh;
+  background-image: url("../images/backgrounds/background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-text {
