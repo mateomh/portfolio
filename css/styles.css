@@ -136,11 +136,11 @@
   color: gray;
   text-decoration: none;
   margin: 0 1vh 0 1vh;
-  color: var(--color11);
+  color: var(--color10);
 }
 
 .social-link:hover {
-  color: var(--color5);
+  color: var(--color11);
 }
 
 @media(min-width: 1200px) {
@@ -327,11 +327,11 @@
 
 .footer-link {
   text-decoration: none;
-  color: var(--color12);
+  color: var(--color4);
   font-weight: 900;
 }
 
 .footer-link:hover {
   text-decoration: none;
-  color: var(--color4);
+  color: var(--color12);
 }
