@@ -63,15 +63,11 @@
 }
 
 .text-color-5 {
-  color: var(--color5) !important;
+  color: var(--color1) !important;
 }
 
 .text-color-6 {
   color: var(--color6) !important;
-}
-
-.debugging {
-  border: 1px solid goldenrod;
 }
 
 .title-text {
@@ -126,11 +122,11 @@
   color: gray;
   text-decoration: none;
   margin: 0 1vh 0 1vh;
-  color: var(--color5);
+  color: var(--color3);
 }
 
 .social-link:hover {
-  color: var(--color3);
+  color: var(--color5);
 }
 
 @media(min-width: 1200px) {
@@ -316,7 +312,7 @@
 
 .footer-link {
   text-decoration: none;
-  color: var(--color6);
+  color: var(--color2);
   font-weight: 900;
 }
 
