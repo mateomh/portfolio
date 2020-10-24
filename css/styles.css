@@ -13,6 +13,12 @@
   --color4: #eff48e;
   --color5: #91d18b;
   --color6: #c4fb6d;
+  --color7: #81b214;
+  --color8: #62760c;
+  --color9: #31F735;
+  --color10: #187A19;
+  --color11: #27C42A;
+  --color12: #7CF97E;
 
   /* Other Palettes */
   /* #eeeeee
@@ -70,6 +76,14 @@
   color: var(--color6) !important;
 }
 
+.text-color-dark {
+  color: var(--color10) !important;
+}
+
+.text-color-bright {
+  color: var(--color9) !important;
+}
+
 .title-text {
   font-size: 5vh;
   font-weight: 700;
@@ -122,7 +136,7 @@
   color: gray;
   text-decoration: none;
   margin: 0 1vh 0 1vh;
-  color: var(--color3);
+  color: var(--color11);
 }
 
 .social-link:hover {
@@ -303,6 +317,7 @@
   height: fit-content;
   border-radius: 20vh 0 0 0;
   padding: 15vh 5vh 10vh 10vh;
+  background-color: var(--color10);
 }
 
 .footer-text {
@@ -312,7 +327,7 @@
 
 .footer-link {
   text-decoration: none;
-  color: var(--color2);
+  color: var(--color12);
   font-weight: 900;
 }
 
