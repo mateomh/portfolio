@@ -95,6 +95,12 @@
   font-family: 'Oxygen', sans-serif;
 }
 
+.acordeon-text {
+  font-size: 4vh !important;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bolder;
+}
+
 /* ===================== NAVBAR SECTION ========================== */
 
 /* ===================== HEADER SECTION ========================== */
