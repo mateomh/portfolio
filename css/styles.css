@@ -136,6 +136,7 @@
   margin-top: 5vh;
   text-align: left;
   width: 60%;
+  
 }
 
 .social-link {
@@ -143,6 +144,9 @@
   text-decoration: none;
   margin: 0 1vh 0 1vh;
   color: var(--color10);
+  outline: none;
+  border: none;
+  background-color: inherit;
 }
 
 .social-link:hover {
