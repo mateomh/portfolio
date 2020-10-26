@@ -81,13 +81,15 @@
 }
 
 .text-color-bright {
-  color: var(--color9) !important;
+  color: var(--color11) !important;
 }
 
 .title-text {
   font-size: 5vh;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+  /* color: #d6e0f0; */
+  color: var(--color3);
 }
 
 .regular-text {
@@ -101,6 +103,10 @@
   font-weight: bolder;
 }
 
+body {
+  background-color: #41444b !important;
+}
+
 /* ===================== NAVBAR SECTION ========================== */
 
 /* ===================== HEADER SECTION ========================== */
@@ -111,12 +117,13 @@
   align-items: center;
   min-height: 100vh;
   height: fit-content;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: red;
   border-radius: 0 0 0 20vh;
   margin-bottom: 10vh;
   background-image: url();
   padding: 10vh 10vh 10vh 10vh;
-  background-image: url("../images/backgrounds/background1.png");
+  background-image: url("../images/backgrounds/background1dark.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -129,7 +136,7 @@
   width: 100%;
   font-size: 2.5vh;
   margin-top: 3vh;
-  color: gray;
+  color: #eee;
 }
 
 .social-buttons {
@@ -143,14 +150,14 @@
   color: gray;
   text-decoration: none;
   margin: 0 1vh 0 1vh;
-  color: var(--color10);
+  color: var(--color11);
   outline: none;
   border: none;
   background-color: inherit;
 }
 
 .social-link:hover {
-  color: var(--color11);
+  color: var(--color10);
 }
 
 @media(min-width: 1200px) {
@@ -173,9 +180,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   padding: 10vh 0;
-  background-color: #f7f2e7;
+  /* background-color: var(--color10); */
   border-radius: 20vh;
 }
 
@@ -282,7 +289,8 @@
   align-items: center;
   padding: 15vh 5vh 5vh 10vh;
   height: fit-content;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: #393e46;
   border-radius: 0 20vh 0 0;
 }
 
@@ -315,6 +323,11 @@
 
 .language-text {
   margin-top: 2vh;
+  color: whitesmoke;
+}
+
+.acordeon-background {
+  background-color: #393e46 !important;
 }
 
 /* ================== ABOUT SECTION MEDIA QUERY ================== */
