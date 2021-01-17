@@ -260,6 +260,18 @@ body {
     url("../images/projects_imgs/css-linter/pankaj-patel-_SgRNwAVNKw-unsplash.jpg");
 }
 
+.rexy-run {
+  background-image:
+    radial-gradient(farthest-corner at 80% 20%, rgb(0, 0, 0, 0.5), rgb(0,0,0,0.7), black),
+    url("../images/projects_imgs/run-rexy-run/gameoverscreen.png");
+}
+
+.pokedex {
+  background-image:
+    radial-gradient(farthest-corner at 80% 20%, rgb(0, 0, 0, 0.5), rgb(0,0,0,0.7), black),
+    url("../images/projects_imgs/pokedex/filteredpokemonlist.png");
+}
+
 /* ============== PROJECTS SECTION MEDIA QUERIES ================= */
 @media(min-width: 1200px){
   .project-display {
